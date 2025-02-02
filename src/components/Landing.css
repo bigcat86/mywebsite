@@ -1,0 +1,33 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 100vw;
+    background-color: #47a3ff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.landing h1 {
+    width: 100%;
+    font-size: 5rem;
+    color: whitesmoke;
+    text-shadow: 0 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.landing h4 {
+    width: 100%;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.icon-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 100px;
+}
