@@ -1,5 +1,6 @@
 .nav {
     height: auto;
+    position: sticky;
     width: 100px;
     justify-content: space-around;
     align-items: center;

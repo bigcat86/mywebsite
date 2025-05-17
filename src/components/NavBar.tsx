@@ -7,7 +7,19 @@ import "./NavBar.css";
 export default function NavBar() {
   var tl = gsap.timeline();
 
-  useGSAP(() => {});
+  useGSAP(() => {
+    tl.fromTo(
+      ".nav-item",
+      { x: -300, opacity: 0 },
+      {
+        duration: 3,
+        x: 0, // Move 100px to the right
+        opacity: 1,
+        ease: "power4",
+        stagger: 0.5, // Stagger start times
+      }
+    );
+  });
 
   return (
     <ul className="nav nav-pills flex-column">

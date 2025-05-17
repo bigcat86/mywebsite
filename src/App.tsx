@@ -9,11 +9,11 @@ function App() {
     <div className="App">
       <div className="home">
         <Landing />
-        <NavBar />
+        {/* <NavBar /> */}
       </div>
-      <div className="scroll">
+      {/* <div className="scroll">
         <ScrollDemo />
-      </div>
+      </div> */}
     </div>
   );
 }

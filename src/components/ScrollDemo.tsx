@@ -12,16 +12,17 @@ export default function ScrollDemo() {
   var tl = gsap.timeline();
 
   useGSAP(() => {
-    tl.to(".scroll-title", {
-      scrollTrigger: {
-        trigger: ".scroll-title",
-        pin: true, // pin the trigger element while active
-        start: "center center", // when the top of elem is 80% from the top of the viewport
-        end: "bottom 10%", // optional end point
-        scrub: true, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-        // markers: true, // for debugging
-      },
-    });
+    // tl.to(".scroll-title", {
+    //   backgroundColor: "#85c2ff",
+    //   scrollTrigger: {
+    //     trigger: ".scroll-title",
+    //     pin: true, // pin the trigger element while active
+    //     start: "center center", // when the top of elem is 80% from the top of the viewport
+    //     end: "bottom 10%", // optional end point
+    //     scrub: true, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+    //     // markers: true, // for debugging
+    //   },
+    // });
 
     tl.to(".scroll-image", {
       y: -1000,
